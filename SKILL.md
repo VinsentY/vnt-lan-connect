@@ -20,8 +20,6 @@ description: >-
 | **macOS / Linux** | [scripts/vnt_room.sh](./scripts/vnt_room.sh) | `bash <SKILL_DIR>/scripts/vnt_room.sh <action> [参数]` |
 | **Windows** | [scripts/vnt_room.ps1](./scripts/vnt_room.ps1) | `powershell -NoProfile -ExecutionPolicy Bypass -File <SKILL_DIR>/scripts/vnt_room.ps1 <action> [参数]` |
 
-> **快速执行说明**：`join` 命令已内置串联了「前置检查 → 后台入房与打开实时监控窗口 → 状态查询 → 稳定性测试」全流程，执行一次 `join` 命令（建议设置等待时间 `10000ms`）即可在 ~6 秒内返回完整报告，无需在 `join` 后重复调用 `status` 或 `test`。
-
 ---
 
 ## 一、前置环境（Prerequisites）

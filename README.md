@@ -19,13 +19,11 @@
 把下面这段话直接发给朋友，让朋友粘贴到自己的 AI Agent（Antigravity / Cursor / Claude Code / Codex / Trae 等）对话框里即可一键安装并建立联机：
 
 ```text
-请帮我安装我朋友写的 VNT 联机 Skill（https://github.com/VinsentY/vnt-lan-connect）并立即按默认配置建立联机：
+请帮我安装我朋友写的 VNT 虚拟局域网联机 Skill（https://github.com/VinsentY/vnt-lan-connect），并按默认配置建立联机：
 
-1. 直接执行 git clone https://github.com/VinsentY/vnt-lan-connect "$HOME/.gemini/config/skills/vnt-lan-connect"（若已存在则 git pull 更新；若使用其他 Agent 则克隆到对应的 skills/vnt-lan-connect 目录）。
-2. 克隆完成后直接执行其中的 join 脚本（已内置默认房间名「峡谷模拟联机群」与默认密码「200008」，且包含状态查询与稳定性测试全流程，无需再单独跑 status/test）：
-   - Windows: powershell -NoProfile -ExecutionPolicy Bypass -File "$HOME/.gemini/config/skills/vnt-lan-connect/scripts/vnt_room.ps1" join
-   - macOS / Linux: bash "$HOME/.gemini/config/skills/vnt-lan-connect/scripts/vnt_room.sh" join
-3. 完成后告诉我本机分配到的虚拟 IP、房间内在线队友及延迟，并提醒我关闭弹出的「VNT 实时联机状态监控台」窗口即可自动断开联机。
+1. 将该仓库克隆到你当前的全局或工作区 Skills 目录下（目录名设为 vnt-lan-connect，若已存在则 git pull 更新）。
+2. 参考仓库内的 SKILL.md，按默认配置（房间名：峡谷模拟联机群，密码：200008）执行其中的 join 脚本帮我建立 VNT 虚拟局域网联机。
+3. 联机完成后，请告诉我本机分配到的虚拟 IP、房间内在线队友及延迟情况，并提醒我关闭弹出的「VNT 实时联机状态监控台」窗口即可自动断开联机。
 ```
 
 ---

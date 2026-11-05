@@ -28,9 +28,12 @@
 
 ---
 
-## 🛠️ 手动命令行用法
+## 🛠️ 脱离 Agent 独立运行用法
 
-### Windows (PowerShell)
+### Windows 双击一键启动（最省心）
+直接双击仓库根目录下的 **[`一键启动VNT联机.cmd`](./一键启动VNT联机.cmd)**（也可以将该 `.cmd` 文件直接复制到桌面双击运行），即可在不打开任何 AI Agent 的情况下自动启动默认联机并弹出「VNT 实时联机状态监控台」窗口。
+
+### Windows (PowerShell 命令行)
 ```powershell
 # 一键加入/创建默认房间（弹出实时状态监控台）
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\vnt_room.ps1 join

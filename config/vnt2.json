@@ -1,0 +1,10 @@
+{
+  "client_version": "2.0.11",
+  "server": "quic://154.23.172.117:29872",
+  "fallback_server": "tcp://154.23.172.117:29872",
+  "server_ip": "154.23.172.117",
+  "server_port": 29872,
+  "cert_fingerprint": "ac0babf9bc7796144912d0d48d495b915276ad72acc924a64829c63ffcf5d579",
+  "room": "峡谷模拟联机群",
+  "password": "200008"
+}

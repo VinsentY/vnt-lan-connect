@@ -1,12 +1,12 @@
 ---
-name: vnt-lan-connect
+name: vnt-lan-skill
 description: >-
   Use VNT 2 (v2.0.11) on Windows for virtual LAN gaming and intranet connectivity,
   joining the "峡谷模拟联机群" room via the dedicated VPS server (154.23.172.117:29872),
   launching the interactive VNT console monitor, and verifying P2P connectivity while preserving Clash TUN.
 ---
 
-# VNT 2 峡谷模拟联机群 · 联机管理 (`vnt-lan-connect`)
+# VNT 2 峡谷模拟联机群 · 联机管理 (`vnt-lan-skill`)
 
 基于官方 **VNT 2.0.11**（`vnt2_cli.exe` + `vnt2_ctrl.exe`）与自建固定 VPS 节点（`154.23.172.117:29872`），在 Windows 下建立系统级 Wintun（`vnt-tun`）虚拟局域网网卡。支持一键完成 **前置环境自检 → 加入/创建「峡谷模拟联机群」并弹出独立实时监控台窗口 → 查看房间成员列表 → 执行连接稳定性测试**。
 

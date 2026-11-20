@@ -1,4 +1,4 @@
-# vnt-lan-connect — Windows VNT 2 一键虚拟局域网联机工具 & Agent Skill
+# vnt-lan-skill — Windows VNT 2 一键虚拟局域网联机工具 & Agent Skill
 
 基于官方 **[VNT 2.0.11](https://github.com/vnt-dev/vnt)** 与系统级 **Wintun（`vnt-tun`）** 驱动的 Windows 一键虚拟局域网联机方案，同时也是一个开箱即用的 **AI Agent Skill**（兼容 Antigravity / Claude Code / Codex / Cursor 等支持 `SKILL.md` 的客户端）。
 
@@ -76,7 +76,13 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\vnt2_room.ps1 
 
 ### 方式三：作为 AI Agent Skill 挂载
 
-将本仓库克隆到你的 Agent Skills 目录（例如 `~/.gemini/config/skills/vnt-lan-connect`、`~/.codex/skills/vnt-lan-connect` 或项目 `.agents/skills/vnt-lan-connect`），即可直接用自然语言让 AI 帮你联机、查状态或测延迟。
+支持使用 [`skills`](https://skills.sh) CLI 一键安装（兼容 Antigravity / Claude Code / Codex / Cursor 等）：
+
+```bash
+npx skills add VinsentY/vnt-lan-skill
+```
+
+或手动将本仓库克隆到你的 Agent Skills 目录（例如 `~/.gemini/config/skills/vnt-lan-skill`、`~/.codex/skills/vnt-lan-skill` 或项目 `.agents/skills/vnt-lan-skill`），即可直接用自然语言让 AI 帮你联机、查状态、排查网络或测延迟。
 
 ---
 

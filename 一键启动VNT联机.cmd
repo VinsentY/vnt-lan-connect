@@ -7,6 +7,10 @@ if exist "%~dp0scripts\vnt2_room.ps1" (
     set "PS1_PATH=%~dp0scripts\vnt2_room.ps1"
 ) else if exist "%~dp0vnt2_room.ps1" (
     set "PS1_PATH=%~dp0vnt2_room.ps1"
+) else if exist "%USERPROFILE%\.gemini\config\skills\vnt-lan-skill\scripts\vnt2_room.ps1" (
+    set "PS1_PATH=%USERPROFILE%\.gemini\config\skills\vnt-lan-skill\scripts\vnt2_room.ps1"
+) else if exist "%USERPROFILE%\.codex\skills\vnt-lan-skill\scripts\vnt2_room.ps1" (
+    set "PS1_PATH=%USERPROFILE%\.codex\skills\vnt-lan-skill\scripts\vnt2_room.ps1"
 ) else if exist "%USERPROFILE%\.gemini\config\skills\vnt-lan-connect\scripts\vnt2_room.ps1" (
     set "PS1_PATH=%USERPROFILE%\.gemini\config\skills\vnt-lan-connect\scripts\vnt2_room.ps1"
 ) else if exist "%USERPROFILE%\.codex\skills\vnt-lan-connect\scripts\vnt2_room.ps1" (
